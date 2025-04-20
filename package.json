@@ -1,0 +1,15 @@
+{
+  "name": "basic-node.js-server",
+  "version": "1.0.0",
+  "description": "basic node js server (basic to intermidiate) with RESTful API's.",
+  "license": "ISC",
+  "author": "Rishi Singh Parihar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
