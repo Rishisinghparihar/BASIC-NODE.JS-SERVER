@@ -12,7 +12,7 @@ app.use(express.json());
 
 //connect to the DB 
 (async function connectDB(){
-    const connection = await mongoose.connect('mongodb+srv://bkc17154:2dHDUYcwY568BfyD@cluster0.1jcz0.mongodb.net/RESTfullAPI')
+    const connection = await mongoose.connect('mongodb+srv://bkc17154:<password>@cluster0.1jcz0.mongodb.net/RESTfullAPI')
     console.log('mongoDB is connected')
 })();
 
